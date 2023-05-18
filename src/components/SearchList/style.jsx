@@ -19,7 +19,8 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   width: 80%;
   margin: auto;
-
+  margin-top:117px;
+  z-index: -1;
   @media screen and (max-width: 850px) {
     width: 90%;
 
@@ -124,11 +125,14 @@ export const TextList = styled.div`
 
 export const TextHashtag = styled.p`
   display: flex;
+  flex-direction: column;
   font-size: 24px;
   font-weight: 1;
   margin-left: 20px;
   color: white;
   align-items: center;
+  width:100px;
+ 
 
   @media screen and (max-width: 850px) {
     font-size: 18px;
